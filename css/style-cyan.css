@@ -189,28 +189,19 @@ span.toko {
 
 /* tabs */
 
-.tabs {
+.tab {
     overflow: hidden;
     display: flex;
     justify-content: center;
-    margin-bottom: 15px;
   }
   
-  .tabs img.active {
+.tab img.active {
     background-color: #97ccd3;
     border-radius: 15px;
   }
   
-  .tabcontent {
+.tabcontent {
     display: none;
     padding: 10px 10px;
     border: 2px solid #97ccd3;
   }
-
-  /* img univ aktif */
-
-  img.active {
-    background-color: #97ccd3;
-    border-radius: 15px;
-  }
-
