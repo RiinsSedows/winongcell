@@ -177,6 +177,7 @@ div.navbar {
     height: 70px;
     display: flex;
     justify-content: center;
+    background-color: #06aab7;
 }
 
 /* tabs */
