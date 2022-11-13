@@ -80,7 +80,13 @@ h1 {
 h2 {
     font-family: Albert500;
     font-size: 10px;
-    color: #ffffff;
+}
+
+h2.center {
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 50%;
+    display: block;
 }
 
 /* navbar gede */
@@ -142,7 +148,10 @@ h5 {
 div.banner {
     width: 440px;
     height: 200px;
-    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 div.t {
@@ -166,8 +175,6 @@ div.t {
     position: relative;
     margin-right: 10px;
     margin-top: 10px;
-    display: flex;
-    justify-content: center;
 }
 
 div.f {
@@ -192,6 +199,16 @@ div.navbar {
     background-color: #06aab7;
 }
 
+div.down1 {
+    width: 440px;
+    height: 35px;
+}
+
+div.up1 {
+    width: 440px;
+    height: 35px;
+}
+
 span.toko {
     padding: 5px;
     margin: auto;
@@ -200,6 +217,13 @@ span.toko {
     color: #dae6e9;
     font-family: Acme;
     font-size: 20px;
+}
+
+img.center {
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 50%;
+    display: block;
 }
 
 /* tabs */
@@ -219,8 +243,10 @@ span.toko {
     display: none;
     padding: 10px 10px;
     border: 2px solid #97ccd3;
+    border-radius: 10px;
   }
 
   img.margins {
     margin: 5px;
+    padding: 5px;
   }
