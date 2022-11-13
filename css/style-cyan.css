@@ -76,17 +76,22 @@ h1 {
     color: #97ccd3;
 }
 
-/* teks dark mode */
+/* teks konten */
 h2 {
     font-family: Albert500;
-    font-size: 10px;
+    font-size: 13px;
+}
+
+h2.left {
+    margin: 10px;
+    padding-left: 20px;
+    text-align: left;
 }
 
 h2.center {
     margin-top: auto;
     margin-bottom: auto;
-    height: 50%;
-    display: block;
+    text-align: center;
 }
 
 /* navbar gede */
@@ -121,11 +126,13 @@ h5 {
 /* animate */
 
 #sliding {
+    margin: 0px;
+    padding: 0px;
     width: 440px;
     height: 200px;
     object-fit: cover;
     object-position: 0% 0%;
-    animation: glitch 20s infinite;
+    animation: glitch 30s infinite;
     }  
   
   @keyframes glitch {
@@ -156,7 +163,7 @@ div.banner {
 
 div.t {
     width: 440px;
-    height: 50px;
+    height: 70px;
     padding: 0px;
     display: block;
     margin-left: auto;
@@ -188,8 +195,50 @@ div.f {
 div.konten {
     position: relative;
     width: 420px;
-    height: 550px;
     padding: 10px;
+    border-color: #06aab7;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 15px;
+}
+
+div.baris {
+    position: relative;
+    width: 50%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.3baris {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+div.box-sharing {
+    position: relative;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 50%;
+}
+
+div.judul-kontak {
+    position:relative;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+span.judul {
+    padding: 7px;
+    color:#dae6e9;
+    background-color: #06aab7;
+    border-radius: 5px;
+    font-family: Albert900;
+    font-size: 20px;
 }
 
 div.navbar {
@@ -219,7 +268,16 @@ span.toko {
     font-size: 20px;
 }
 
-img.center {
+span.bergabung {
+    padding: 5px;
+    background-color: #06aab7;
+    border-radius: 7px;
+    color: #dae6e9;
+    font-family: Albert500;
+    font-size: 13px;
+}
+
+div.image-center {
     margin-top: auto;
     margin-bottom: auto;
     height: 50%;
@@ -250,3 +308,21 @@ img.center {
     margin: 5px;
     padding: 5px;
   }
+
+.website-counter {
+    background-color: #06aab7;
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    margin: 5px;
+}
+
+span.counter {
+    background-color: #06aab7;
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    margin: 5px;
+}
