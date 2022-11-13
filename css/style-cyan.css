@@ -119,12 +119,15 @@ h5 {
     0% {
       object-position: 0% 0%;
     }
-    50% {
-      object-position: 50% 0%;
+    33% {
+      object-position: 33% 0%;
     }
-    100% {
-      object-position: 100% 0%;
+    66% {
+      object-position: 66% 0%;
     }  
+    100% {
+        object-position: 100% 0%;
+      } 
 }
 
 /* div block */
@@ -138,8 +141,9 @@ div.t {
     width: 440px;
     height: 50px;
     padding: 10px;
-    display: flex;
-    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .left {
@@ -177,7 +181,7 @@ div.navbar {
 
 /* tabs */
 
-.tab {
+.tabs {
     overflow: hidden;
     display: flex;
     justify-content: center;
