@@ -175,9 +175,16 @@ div.konten {
 div.navbar {
     width: 440px;
     height: 70px;
-    display: flex;
-    justify-content: center;
+    text-align: center;
     background-color: #06aab7;
+}
+
+span.toko {
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-left: 10px;
+    background-color: #06aab7;
+    border-radius: 5px;
 }
 
 /* tabs */
