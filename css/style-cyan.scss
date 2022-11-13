@@ -1,0 +1,208 @@
+/* dark-mode */
+
+$bg-dark: #323232;
+$bg: #dae6e9;
+
+/* enable-dark-mode */
+
+.dark-mode {
+    background-color: $bg-dark;
+    color: $bg;
+}
+
+/* theme-cyan */
+
+$bg: #dae6e9;
+$button-toko: #00a1b0;
+$button-toko-teks: #97ccd3;
+$dark-mode-teks: #00a1b0;
+$konten: #97ccd3;
+$konten-teks: #06aab7;
+$navbar: #00a1b0;
+$navbar-teks: #ffffff;
+$mobile: 440px;
+$borderrounded: 15px;
+$paddingkonten: 10px;
+$heightbanner: 200px;
+$heightnavbar: 70px;
+$heightkonten: 550px;
+$widthkonten: 420px;
+$heighttdm: 50px;
+$heightprfl: 100px;
+
+/* body setting */
+
+body {
+    background-color: $bg;
+    background-size: cover;
+    height: 50%;
+    width: 440px;
+    margin-left: auto;
+    margin-right: auto;
+    color: $konten-teks
+}
+
+/* font setting */
+
+@font-face {
+    font-family: Acme;
+    src: url('/f/Acme.ttf');
+}
+
+Acme {
+    font-family: Acme;
+}
+
+@font-face {
+    font-family: Albert900;
+    src: url('/f/Albert900.ttf');
+}
+
+Albert900 {
+    font-family: Albert900;
+}
+
+@font-face {
+    font-family: Albert500;
+    src: url('/f/Albert900.ttf');
+}
+
+Albert500 {
+    font-family: Albert500;
+}
+
+/* font-sizing */
+
+/* nama toko */
+h1 {
+    font-family: Acme;
+    font-size: 20px;
+    color: $button-toko-teks;
+}
+
+/* teks dark mode */
+h2 {
+    font-family: Albert500;
+    font-size: 10px;
+    color: $dark-mode-teks;
+}
+
+/* navbar gede */
+h3 {
+    font-family: Albert900;
+    font-size: 15px;
+    color: $navbar-teks;
+}
+
+/* navbar kecil */
+h4 {
+    font-family: Albert500;
+    font-size: 10px;
+    color: $navbar-teks;
+}
+
+/* konten teks bright mode */
+h5 {
+    font-family: Albert500;
+    font-size: 16px;
+    color: $konten-teks;
+}
+
+
+/* animate */
+
+#sliding {
+    width: $mobile;
+    height: $heightbanner;
+    object-fit: cover;
+    object-position: 0% 0%;
+    animation: glitch 20s infinite;
+    }  
+  
+  @keyframes glitch {
+    0% {
+      object-position: 0% 0%;
+    }
+    50% {
+      object-position: 50% 0%;
+    }
+    100% {
+      object-position: 100% 0%;
+    }  
+}
+
+/* div block */
+
+div.banner {
+    width: $mobile;
+    height: $heightbanner;
+}
+
+div.t {
+    width: $mobile;
+    height: $heighttdm;
+    padding: $paddingkonten;
+    display: flex;
+    justify-content: center;
+}
+
+.left {
+    float: left;
+    position: relative;
+}
+
+.right {
+    float: right;
+    position: relative;
+}
+
+div.f {
+    width: $mobile;
+    height: $heightprfl;
+    padding: $paddingkonten;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+div.konten {
+    position: relative;
+    width: $widthkonten;
+    height: $heightkonten;
+    padding: $paddingkonten;
+}
+
+div.navbar {
+    width: $mobile;
+    height: $heightnavbar;
+    display: flex;
+    justify-content: center;
+}
+
+/* tabs */
+
+.tab {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .tab img.active {
+    background-color: $button-toko-teks;
+    border-radius: 15px;
+  }
+  
+  .tabcontent {
+    display: none;
+    padding: 10px 10px;
+    border: 2px solid $button-toko-teks;
+  }
+
+  /* img univ aktif */
+
+  img.active {
+    background-color: $button-toko-teks;
+    border-radius: 15px;
+  }
+
