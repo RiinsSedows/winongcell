@@ -61,7 +61,7 @@ Albert900 {
 
 @font-face {
     font-family: Albert500;
-    src: url('/f/Albert900.ttf');
+    src: url('/f/Albert500.ttf');
 }
 
 Albert500 {
@@ -90,11 +90,18 @@ h3 {
     color: #ffffff;
 }
 
+h3.down {
+    margin-bottom: 5px;
+}
+
 /* navbar kecil */
 h4 {
     font-family: Albert500;
     font-size: 10px;
     color: #ffffff;
+}
+h4.up {
+    margin-top: 5px;
 }
 
 /* konten teks bright mode */
@@ -135,6 +142,7 @@ h5 {
 div.banner {
     width: 440px;
     height: 200px;
+    margin: 0px;
 }
 
 div.t {
@@ -149,16 +157,22 @@ div.t {
 .left {
     float: left;
     position: relative;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 .right {
     float: right;
     position: relative;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 div.f {
     width: 440px;
-    height: 100px;
+    height: 70px;
     display: flex;
     justify-content: center;
     position: relative;
@@ -179,12 +193,13 @@ div.navbar {
 }
 
 span.toko {
-    padding-left: 7px;
-    padding-right: 7px;
-    margin-left: 10px;
+    padding: 5px;
+    margin: auto;
     background-color: #06aab7;
     border-radius: 5px;
     color: #dae6e9;
+    font-family: Acme;
+    font-size: 20px;
 }
 
 /* tabs */
@@ -204,4 +219,8 @@ span.toko {
     display: none;
     padding: 10px 10px;
     border: 2px solid #97ccd3;
+  }
+
+  img.margins {
+    margin: 5px;
   }
