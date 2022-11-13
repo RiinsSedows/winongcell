@@ -1,45 +1,42 @@
-/* dark-mode */
-
-$bg-dark: #323232;
-$bg: #dae6e9;
-
 /* enable-dark-mode */
 
 .dark-mode {
-    background-color: $bg-dark;
-    color: $bg;
+    background-color: #323232;
+    color: #dae6e9;
 }
 
 /* theme-cyan */
 
-$bg: #dae6e9;
-$button-toko: #00a1b0;
-$button-toko-teks: #97ccd3;
-$dark-mode-teks: #00a1b0;
-$konten: #97ccd3;
-$konten-teks: #06aab7;
-$navbar: #00a1b0;
-$navbar-teks: #ffffff;
-$mobile: 440px;
-$borderrounded: 15px;
-$paddingkonten: 10px;
-$heightbanner: 200px;
-$heightnavbar: 70px;
-$heightkonten: 550px;
-$widthkonten: 420px;
-$heighttdm: 50px;
-$heightprfl: 100px;
+div.themecyan.code {
+    $bg: #dae6e9;
+    $button-toko: #00a1b0;
+    $button-toko-teks: #97ccd3;
+    $dark-mode-teks: #00a1b0;
+    $konten: #97ccd3;
+    $konten-teks: #06aab7;
+    $navbar: #00a1b0;
+    $navbar-teks: #ffffff;
+    $mobile: 440px;
+    $borderrounded: 15px;
+    $paddingkonten: 10px;
+    $heightbanner: 200px;
+    $heightnavbar: 70px;
+    $heightkonten: 550px;
+    $widthkonten: 420px;
+    $heighttdm: 50px;
+    $heightprfl: 100px;
+}
 
 /* body setting */
 
 body {
-    background-color: $bg;
+    background-color: #dae6e9;
     background-size: cover;
     height: 50%;
     width: 440px;
     margin-left: auto;
     margin-right: auto;
-    color: $konten-teks
+    color: #06aab7;
 }
 
 /* font setting */
@@ -71,49 +68,48 @@ Albert500 {
     font-family: Albert500;
 }
 
-/* font-sizing */
 
 /* nama toko */
 h1 {
     font-family: Acme;
     font-size: 20px;
-    color: $button-toko-teks;
+    color: #97ccd3;
 }
 
 /* teks dark mode */
 h2 {
     font-family: Albert500;
     font-size: 10px;
-    color: $dark-mode-teks;
+    color: #ffffff;
 }
 
 /* navbar gede */
 h3 {
     font-family: Albert900;
     font-size: 15px;
-    color: $navbar-teks;
+    color: #ffffff;
 }
 
 /* navbar kecil */
 h4 {
     font-family: Albert500;
     font-size: 10px;
-    color: $navbar-teks;
+    color: #ffffff;
 }
 
 /* konten teks bright mode */
 h5 {
     font-family: Albert500;
     font-size: 16px;
-    color: $konten-teks;
+    color: #06aab7;
 }
 
 
 /* animate */
 
 #sliding {
-    width: $mobile;
-    height: $heightbanner;
+    width: 440px;
+    height: 200px;
     object-fit: cover;
     object-position: 0% 0%;
     animation: glitch 20s infinite;
@@ -134,14 +130,14 @@ h5 {
 /* div block */
 
 div.banner {
-    width: $mobile;
-    height: $heightbanner;
+    width: 440px;
+    height: 200px;
 }
 
 div.t {
-    width: $mobile;
-    height: $heighttdm;
-    padding: $paddingkonten;
+    width: 440px;
+    height: 50px;
+    padding: 10px;
     display: flex;
     justify-content: center;
 }
@@ -157,9 +153,9 @@ div.t {
 }
 
 div.f {
-    width: $mobile;
-    height: $heightprfl;
-    padding: $paddingkonten;
+    width: 440px;
+    height: 100px;
+    padding: 10px;
     display: flex;
     justify-content: center;
     position: relative;
@@ -167,14 +163,14 @@ div.f {
 
 div.konten {
     position: relative;
-    width: $widthkonten;
-    height: $heightkonten;
-    padding: $paddingkonten;
+    width: 420px;
+    height: 550px;
+    padding: 10px;
 }
 
 div.navbar {
-    width: $mobile;
-    height: $heightnavbar;
+    width: 440px;
+    height: 70px;
     display: flex;
     justify-content: center;
 }
@@ -189,20 +185,20 @@ div.navbar {
   }
   
   .tab img.active {
-    background-color: $button-toko-teks;
+    background-color: #97ccd3;
     border-radius: 15px;
   }
   
   .tabcontent {
     display: none;
     padding: 10px 10px;
-    border: 2px solid $button-toko-teks;
+    border: 2px solid #97ccd3;
   }
 
   /* img univ aktif */
 
   img.active {
-    background-color: $button-toko-teks;
+    background-color: #97ccd3;
     border-radius: 15px;
   }
 
