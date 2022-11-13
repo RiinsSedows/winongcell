@@ -8,23 +8,23 @@
 /* theme-cyan */
 
 div.themecyan.code {
-    $bg: #dae6e9;
-    $button-toko: #00a1b0;
-    $button-toko-teks: #97ccd3;
-    $dark-mode-teks: #00a1b0;
-    $konten: #97ccd3;
-    $konten-teks: #06aab7;
-    $navbar: #00a1b0;
-    $navbar-teks: #ffffff;
-    $mobile: 440px;
-    $borderrounded: 15px;
-    $paddingkonten: 10px;
-    $heightbanner: 200px;
-    $heightnavbar: 70px;
-    $heightkonten: 550px;
-    $widthkonten: 420px;
-    $heighttdm: 50px;
-    $heightprfl: 100px;
+    bg: #dae6e9;
+    button-toko: #00a1b0;
+    button-toko-teks: #97ccd3;
+    dark-mode-teks: #00a1b0;
+    konten: #97ccd3;
+    konten-teks: #06aab7;
+    navbar: #00a1b0;
+    navbar-teks: #ffffff;
+    mobile: 440px;
+    borderrounded: 15px;
+    paddingkonten: 10px;
+    heightbanner: 200px;
+    heightnavbar: 70px;
+    heightkonten: 550px;
+    widthkonten: 420px;
+    heighttdm: 50px;
+    heightprfl: 100px;
 }
 
 /* body setting */
@@ -140,7 +140,7 @@ div.banner {
 div.t {
     width: 440px;
     height: 50px;
-    padding: 10px;
+    padding: 0px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -159,7 +159,6 @@ div.t {
 div.f {
     width: 440px;
     height: 100px;
-    padding: 10px;
     display: flex;
     justify-content: center;
     position: relative;
@@ -185,6 +184,7 @@ span.toko {
     margin-left: 10px;
     background-color: #06aab7;
     border-radius: 5px;
+    color: #dae6e9;
 }
 
 /* tabs */
@@ -196,7 +196,7 @@ span.toko {
     margin-bottom: 15px;
   }
   
-  .tab img.active {
+  .tabs img.active {
     background-color: #97ccd3;
     border-radius: 15px;
   }
