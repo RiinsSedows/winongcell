@@ -38,6 +38,12 @@
             margin-right: auto;
             color: #06aab7;
         }
+
+        div.src {
+            margin: 0px;
+            padding: 0px;
+            width: 440px;
+        }
         
         /* font setting */
         
