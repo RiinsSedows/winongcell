@@ -136,5 +136,18 @@
             <h4>Aksesories HP Berkualitas</h4>
         </div>
     </div>
+    <script>
+        //this is page view counter based on page load not unique-visitor!//
+        var counterContainer = document.querySelector(".website-counter");
+        var visitCount = localStorage.getItem("page_view");
+        if (visitCount) {
+        visitCount = Number(visitCount) + 1;
+        localStorage.setItem("page_view", visitCount);
+        } else {
+        visitCount = 1;
+        localStorage.setItem("page_view", 1);
+        }
+        counterContainer.innerHTML = visitCount;
+    </script>
 </body>
 </html>
