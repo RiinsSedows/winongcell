@@ -210,6 +210,8 @@
             width: 100%;
             display: flex;
             justify-content: center;
+            margin-top: 6px;
+            margin-bottom: 6px;
         }
         
         div.kotak {
