@@ -167,13 +167,11 @@
         div.t {
             width: 440px;
             height: 40px;
-            margin: 2px;
         }
         
         div.tl {
             width: 440px;
             height: 40px;
-            margin: 2px;
         
         }
         
@@ -212,7 +210,6 @@
             width: 100%;
             display: flex;
             justify-content: center;
-            margin: 15px;
         }
         
         div.kotak {
@@ -360,7 +357,6 @@
           div.belanja {
             display: flex;
             justify-content: center;
-            margin: 15px;
             width: 100%;
           }
         
